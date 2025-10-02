@@ -1,0 +1,37 @@
+🚀 How to Run
+1️⃣ Start the Server
+python Ipv6_server.py
+
+
+Expected output:
+
+[SERVER] IPv6 Server listening on [::1]:1043 ...
+[SERVER] Connection from ('::1', <port>, 0, 0)
+
+2️⃣ Start the Client
+python IPv6_client.py
+
+
+Expected output:
+
+[CLIENT] Connected to server [::1]:1043
+[CLIENT] Server says: Hello from (Pratham Jariwala) IPv6 server!
+[CLIENT] Server replied: Message received. Goodbye! Yamya Sir !!
+
+📸 Screenshots
+Server Running
+
+Client Running
+
+(You can run the code, take screenshots of your terminal, and save them in a screenshots/ folder before pushing to GitHub.)
+
+📑 Related RFCs
+
+RFC 2460 – Internet Protocol, Version 6 (IPv6) Specification
+
+RFC 8200 – IPv6 Specification (Updated)
+
+👨‍💻 Author
+
+Developed by Pratham Jariwala
+Project includes demonstration messages for learning purposes (e.g., “Yamya Sir” acknowledgment).
